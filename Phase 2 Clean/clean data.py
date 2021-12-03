@@ -20,14 +20,14 @@ data = pd.concat([df1,df2,df3,df4,df5])
 3 missions:
 1. Remove ride_length rows that is smaller than 5 mins (uneffective count)
 2. Add started_time_slot and ended_time_slot column to store time_slot in hour
-3. Grouping ride_length into more meaningful way 
+3. Grouping ride_length into more meaningful way (this part do in SQL)
 """
 
-# mission 1
+# mission 1: Remove ride_length rows that is smaller than 5 mins
 data = data[data["ride_length"]>=5]
 
 
-# mission 2
+# mission 2 Add started_time_slot and ended_time_slot column to store time_slot in hour
 def split(text):
     return text.split(" ")[1].split(":")[0]
 
@@ -38,30 +38,35 @@ data["started_time_slot"] = data["started_at"].apply(split)
 data["ended_time_slot"] = data["ended_at"].apply(split)
 
 
-# mission 3
-data["duration_group"] = ""
 
-def grouping(duration_time):
-    if duration_time <= 30:
-        data["duration_group"] = "5 - 30 mins"
-        
-    elif duration_time <= 60:
-         data["duration_group"] = "30 to 1 hour"
-         
-    elif duration_time <= 180:
-        data["duration_group"] = "1 to 3 hours"
-    
-    elif duration_time <= 480:
-        data["duration_group"] = "3 to 8 hours"
-        
-    elif duration_time > 480:
-        data["duration_group"] = "above 8 hours"
-    
-data["ride_length"].apply(grouping)
+# Import data to datbase for mission 3
 
-print(data["duration_group"])
+connect = sqlite3.connect("./main_data.db")
+cur = connect.cursor()
 
+cur.execute("""CREATE TABLE IF NOT EXISTS sharing_bike_dataset_clean_ver1(
+    ride_id TEXT, 
+    rideable_type TEXT, 
+    started_at TIMESTAMP, 
+    ended_at TIMESTAMP, 
+    start_station_name TEXT, 
+    start_station_id TEXT, 
+    end_station_name TEXT, 
+    end_station_id TEXT, 
+    start_lat TEXT, 
+    start_lng TEXT, 
+    end_lat TEXT, 
+    end_lng TEXT, 
+    member_casual TEXT,
+    ride_length INTEGER,
+    day_of_week INTEGER,
+    started_time_slot INTEGER,
+    ended_time_slot INTEGER    
+    );             
+            """)
 
-"""df = data.to_csv("./sharing_bike_dataset_cleaned.csv", index=False)
+data.to_sql("sharing_bike_dataset_clean_ver1", con=connect, if_exists="append", index=False)
 
-print("Successful !")"""
+connect.commit()
+connect.close()
+print("Successful")
