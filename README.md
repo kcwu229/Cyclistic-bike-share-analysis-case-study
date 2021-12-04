@@ -1,4 +1,5 @@
-# Cyclistic-bike-share-analysis-case-study
+<img src="/banner.jpg" alt="banner" align="center"/>
+
 Due to limitation on size uploaded, I place all my work on the goole drive:
 
 https://drive.google.com/drive/folders/1mNdKkmBZMeYHXtG32ezzPkr4hyBVS28H
