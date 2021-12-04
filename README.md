@@ -1,9 +1,6 @@
 <img src="/banner.jpg" alt="banner" align="center"/>
 
-Due to limitation on size uploaded, I place all my work on the goole drive:
-
-https://drive.google.com/drive/folders/1mNdKkmBZMeYHXtG32ezzPkr4hyBVS28H
-
+-------------------------------------------------------------------------------------------------------
 
 👋 Hi, this is a case study for making analysis for the fictional bike-sharing company, Cyclistic
 
@@ -21,8 +18,6 @@ Three business tasks:
   2. Reason for casual customers to buy the memberships
   3. What strategy on digital media can make to motivate more casual customers to buy the memberships
 
--------------------------------------------------------------------------------------------------------
-
 Stages:
   1. Study Business Module 
   2. Studey Business Task
@@ -32,6 +27,11 @@ Stages:
   6. Recommendation
 
 -------------------------------------------------------------------------------------------------------
+
+Due to limitation on size uploaded, I place all my work on the goole drive:
+
+https://drive.google.com/drive/folders/1mNdKkmBZMeYHXtG32ezzPkr4hyBVS28H
+
 
 👾👾
 More eleboration/ briefly elaboration would be placed on case study.ppt and jupyter notebook at a later process.
