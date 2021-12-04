@@ -9,7 +9,7 @@ There are two customers types:
   B. member (paid for memberships)
 
 Goal: 
-  1. Making more casual become member
+  1. Transforming more casual customers into members
 
 Three business tasks:
   1. Different in characteristics between casual and member customers
@@ -25,6 +25,8 @@ Stages:
   4. Measurement
   5. Visualization
   6. Recommendation
+
+-------------------------------------------------------------------------------------------------------
 
 👾👾
 More eleboration/ briefly elaboration would be placed on case study.ppt and jupyter notebook at a later process.
