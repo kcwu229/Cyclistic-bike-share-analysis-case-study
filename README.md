@@ -32,6 +32,10 @@ Due to limitation on size uploaded, I place all my work on the goole drive:
 
 https://drive.google.com/drive/folders/1mNdKkmBZMeYHXtG32ezzPkr4hyBVS28H
 
+-------------------------------------------------------------------------------------------------------
+Preview on The dashboard (Part 1)
+
+![photo_2021-12-08_04-38-23](https://user-images.githubusercontent.com/79691025/145102715-9402e8e8-799a-4daa-b69e-f8e2a48a0e8f.jpg)
 
 👾👾
 More eleboration/ briefly elaboration would be placed on case study.ppt and jupyter notebook at a later process.
