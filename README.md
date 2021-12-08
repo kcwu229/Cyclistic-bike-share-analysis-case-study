@@ -27,6 +27,15 @@ Stages:
   6. Recommendation
 
 -------------------------------------------------------------------------------------------------------
+Challenges I met:
+  1. Unchecked error made when appending data to powerbi
+  2. 
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------
 
 Due to limitation on size uploaded, I place all my work on the goole drive:
 
