@@ -39,8 +39,7 @@ PC version:
 ![222222](https://user-images.githubusercontent.com/79691025/145185627-83c9878a-8dfb-4497-86db-1ae2ad31ceb3.JPG)
 
 Mobile Version:<br>
-![33333333](https://user-images.githubusercontent.com/79691025/145185755-8659fa2f-a3b6-44ae-8b8a-35c0f6f790c6.JPG) 
-![44444444](https://user-images.githubusercontent.com/79691025/145185769-25f4a7ba-ccbf-4c20-af7d-2353ed071f34.JPG)
+![33333333](https://user-images.githubusercontent.com/79691025/145185755-8659fa2f-a3b6-44ae-8b8a-35c0f6f790c6.JPG)![44444444](https://user-images.githubusercontent.com/79691025/145185769-25f4a7ba-ccbf-4c20-af7d-2353ed071f34.JPG)
 
 
 
