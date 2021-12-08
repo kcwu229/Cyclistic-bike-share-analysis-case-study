@@ -33,9 +33,15 @@ Due to limitation on size uploaded, I place all my work on the goole drive:
 https://drive.google.com/drive/folders/1mNdKkmBZMeYHXtG32ezzPkr4hyBVS28H
 
 -------------------------------------------------------------------------------------------------------
-Preview on The dashboard (Part 1)
+DashBoard Preview
+PC version:
+![111111](https://user-images.githubusercontent.com/79691025/145185622-d5e7a517-b57d-4587-bd68-078b45deaafb.JPG)
+![222222](https://user-images.githubusercontent.com/79691025/145185627-83c9878a-8dfb-4497-86db-1ae2ad31ceb3.JPG)
 
-![photo_2021-12-08_04-38-23](https://user-images.githubusercontent.com/79691025/145102715-9402e8e8-799a-4daa-b69e-f8e2a48a0e8f.jpg)
+Mobile Version:
+![33333333](https://user-images.githubusercontent.com/79691025/145185629-33ba6f49-95ec-49c9-a816-c64006e27aeb.JPG)
+![44444444](https://user-images.githubusercontent.com/79691025/145185632-e20eb640-0a94-403e-a12a-91735f88dc8e.JPG)
+
 
 👾👾
 More eleboration/ briefly elaboration would be placed on case study.ppt and jupyter notebook at a later process.
